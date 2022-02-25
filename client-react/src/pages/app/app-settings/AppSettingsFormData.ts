@@ -408,6 +408,7 @@ export function getConfigWithStackSettings(config: SiteConfig, values: AppSettin
 }
 
 export function getCleanedReferences(references: ArmObj<ConfigKeyVaultReferenceList>) {
+  // const keyToRefr
   if (!references.properties.keyToReferenceStatuses) {
     return [];
   }

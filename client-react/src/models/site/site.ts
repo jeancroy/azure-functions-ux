@@ -57,6 +57,12 @@ export enum ClientCertMode {
   Optional = 'Optional',
 }
 
+export enum MinTlsVersion {
+  tLS10 = '1.0',
+  tLS11 = '1.1',
+  tLS12 = '1.2',
+}
+
 export interface Site {
   name: string;
   state: string;
